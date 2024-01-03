@@ -17,7 +17,9 @@ public class TestStreamingMetadataServiceApplication {
 	}
 
 	public static void main(String[] args) {
-		SpringApplication.from(StreamingMetadataServiceApplication::main).with(TestStreamingMetadataServiceApplication.class).run(args);
+		SpringApplication.from(StreamingMetadataServiceApplication::main)
+				.with(TestStreamingMetadataServiceApplication.class)
+				.run(args);
 	}
 
 }

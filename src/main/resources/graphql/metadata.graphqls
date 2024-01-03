@@ -1,0 +1,9 @@
+type Title {
+    id: String!
+    name: String!
+    releaseYear: Int
+}
+
+type Query {
+    titles: [Title!]!
+}
